@@ -11,7 +11,7 @@
    - Note your password. Yo will use it to authentication from login api via username(normal_user)
    - You can check whether it was created user named 'normal_user' from 'user_user' table on database
 9) python manage.py runserver (To run application)
-10) Api documentation
+10) Api documentation https://documenter.getpostman.com/view/5458897/TVt2cj4t
 
 
 TO DO:
