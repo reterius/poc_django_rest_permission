@@ -38,9 +38,9 @@ class IsOwnerOrAdmin(permissions.BasePermission):
     required_groups = ['admin']
 
     def has_object_permission(self, request, view, obj):
-        print("obj.id : ", obj.id)
-        print("obj : ", obj)
-        print("request.user : ", request.user.id)
+        #print("obj.id : ", obj.id)
+        #print("obj : ", obj)
+        #print("request.user : ", request.user.id)
 
         has_group_permission = _has_group_permission(request.user, self.required_groups)
 
