@@ -1,3 +1,5 @@
+This rest api is an example for django rbac and permission structure. Roles are 'admin' and 'anonymous'. Its a poc working example.
+
 1) python3 -m venv venv
 2) source venv/bin/activate
 3) pip install -r requirements.txt
