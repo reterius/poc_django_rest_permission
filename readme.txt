@@ -20,3 +20,4 @@ TO DO:
 1) JWT Integration
 2) UNit tests
 3) Response Abstractions
+4) Dockerize working
