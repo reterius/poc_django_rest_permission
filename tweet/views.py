@@ -40,7 +40,7 @@ class TweetViewSet(ModelViewSet):
         if user_id is not None:
             predicate['user_id'] = user_id
 
-        data = Tweet.objects.filter(**predicate)
+        data = Tweet.objects.filter(**predicate).order_by('-writed_at')
 
         page = self.paginate_queryset(data)
 
